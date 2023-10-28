@@ -1,0 +1,14 @@
+docker pull postgres:15.3
+docker pull dpage/pgadmin4
+
+
+<!-- cuando quiera levantar el docker el comando es el siguiente  -->
+<!-- 1. debo ingresar a la carpeta donde esta el archivo docker-compose.tml y despue el comando -->
+cd carpeta-raiz
+docker compose up -d
+
+
+<!-- para bajar las imagenes seria -->
+docker compose down
+
+
