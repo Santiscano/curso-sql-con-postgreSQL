@@ -18,7 +18,7 @@ CREATE TABLE "public"."country_bk" (
     PRIMARY KEY ("code")
 );
 
-
+-- volcar informacion de tabla country a contry_bk
 INSERT INTO country_bk
 SELECT
 	*
